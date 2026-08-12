@@ -146,3 +146,24 @@ than a random number.
   perform better here than it would in production.
 - No time-series history: each customer is a single snapshot, so trend
   detection over multiple periods is out of scope for this POC.
+
+
+## 7. Cleaning outcomes (Phase 3)
+
+203 raw rows -> 200 clean customers; 487 conversations retained.
+
+Notable decisions:
+- Out-of-range values are nulled, not clipped. An NPS of 47 provides no
+  evidence of promoter status, so "unknown" is more honest than "10".
+- tenure_months was repaired from signup_date rather than imputed - the
+  true value existed in another column.
+- nps_score and csat_avg are deliberately left null and accompanied by
+  explicit *_missing flags, so non-response survives into the signal layer
+  as a disengagement indicator rather than being averaged away.
+- avg_resolution_hours IS median-imputed, because its absence reflects a
+  ticketing-system logging gap rather than customer behaviour.
+- All 31 customers with zero conversations are retained. They are
+  disproportionately quiet drifters; dropping them would remove the
+  highest-risk segment from the analysis.
+- Post-clean assertions fail the pipeline loudly rather than allowing
+  untrustworthy data to reach the scoring stage.
