@@ -87,6 +87,30 @@ SEVERITY_MULTIPLIER = {
 }
 
 # --------------------------------------------------------------------------
+# SCORE SATURATION
+# --------------------------------------------------------------------------
+# A naive score of min(100, raw_sum) breaks the ranking: raw scores here run
+# to 214, so 48 of 200 customers collapsed onto exactly 100 and the "priority
+# list" had a 48-way tie at the top. Since the ranking IS the product, that
+# is a real defect, not a cosmetic one.
+#
+# Instead we use exponential saturation:
+#     score = 100 * (1 - 0.5 ** (raw / SATURATION_HALF))
+#
+# Every additional signal still raises the score, with diminishing returns,
+# and nothing ever reaches exactly 100. SATURATION_HALF is the raw score that
+# maps to 50 - i.e. "half as bad as it can get".
+SATURATION_HALF = 55.0
+
+
+def saturate(raw):
+    """Map an unbounded raw score onto 0-100 without ever tying at the cap."""
+    if raw <= 0:
+        return 0.0
+    return round(100 * (1 - 0.5 ** (raw / SATURATION_HALF)), 1)
+
+
+# --------------------------------------------------------------------------
 # RISK BANDS
 # --------------------------------------------------------------------------
 RISK_BANDS = [

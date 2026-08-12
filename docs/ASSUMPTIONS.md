@@ -167,3 +167,132 @@ Notable decisions:
   highest-risk segment from the analysis.
 - Post-clean assertions fail the pipeline loudly rather than allowing
   untrustworthy data to reach the scoring stage.
+
+## 8. Scoring methodology (Phase 6)
+
+### Formula
+
+```
+contribution = weight x severity_multiplier x recency_weight
+raw          = SUM(contributions)
+score        = 100 x (1 - 0.5 ^ (raw / 55))
+```
+
+Severity multipliers: low 0.5 · medium 1.0 · high 1.5 · critical 2.0
+Recency weight: `0.5 ^ (days_ago / 30)` for conversation signals; 1.0 for
+structured data, which is a current snapshot.
+
+Risk bands: 0-29 Low · 30-54 Medium · 55-74 High · 75-100 Critical
+
+### Worked example — CUST0190, score 98.6
+
+| Signal | Source | Weight | Sev | Recency | Contribution |
+|---|---|---|---|---|---|
+| CHURN_INTENT | conversation | 30 | 2.0 | 1.00 | 60.0 |
+| COMPETITOR_MENTION | conversation | 20 | 1.5 | 1.00 | 30.0 |
+| PAYMENT_FAILURE | billing | 18 | 1.5 | 1.00 | 27.0 |
+| LOW_NPS | behaviour | 12 | 2.0 | 1.00 | 24.0 |
+| DOWNGRADE | behaviour | 15 | 1.5 | 1.00 | 22.5 |
+| INACTIVITY | behaviour | 14 | 1.5 | 1.00 | 21.0 |
+| USAGE_DECLINE | behaviour | 14 | 1.5 | 1.00 | 21.0 |
+| REPEAT_ISSUE | conversation | 12 | 1.5 | 1.00 | 18.0 |
+| ESCALATION_LANGUAGE | conversation | 12 | 1.5 | 0.81 | 14.6 |
+| HIGH_FRUSTRATION | conversation | 10 | 1.5 | 0.81 | 12.2 |
+| *(7 further signals)* | | | | | 89.5 |
+
+Seventeen signals across all three sources. Every point in the final score
+is attributable to a named signal with a stated weight, severity, recency
+factor, and supporting evidence.
+
+### Design decisions
+
+**The score is deterministic.** The LLM identifies and evidences signals; it
+never assigns a number. Model output drifts between runs - the same
+transcript produced frustration 8 for one customer and 7 for another during
+development - so an LLM-assigned score would reshuffle the priority list
+daily, could not be challenged by an operations manager, and could not be
+reproduced by an auditor.
+
+**Exponential saturation replaced a hard cap.** The first implementation used
+`min(100, raw)`. Raw scores reach 214, so 48 of 200 customers collapsed onto
+exactly 100 and the priority list carried a 48-way tie at the top. Since the
+ranking is the product's entire purpose, this was a functional defect rather
+than a cosmetic one. Saturation reduced ties at the maximum from 48 to 1
+while preserving ordering.
+
+Saturation was chosen over max-normalisation because dividing by the observed
+maximum makes every customer's score dependent on the worst customer in the
+batch; a single catastrophic account would silently rescale everyone else.
+Saturation is absolute - a given raw score always maps to the same output.
+
+**Weights are a documented hypothesis, not calibrated truth.** They derive
+from retention literature and from the archetype design, and are exposed in
+`src/config.py` for the retention team to tune. Production would fit them by
+regressing signals against observed churn outcomes.
+
+**Signals are deduplicated by name**, keeping the highest severity and, among
+equals, the most recent. A customer who mentions a competitor in three
+conversations has one competitor problem, not three.
+
+**value_at_risk is a separate column**, never folded into risk_score.
+Blending revenue into risk would rank a healthy enterprise account above a
+genuinely at-risk startup and would systematically hide small customers.
+Operations can sort by either: risk answers "who is leaving", value at risk
+answers "where is the money".
+
+**Confidence is reported separately** from the score, reflecting which agents
+contributed: 1.0 when all three ran, 0.6 when the customer fell outside the
+LLM budget, 0.5 when the LLM stage did not run, 0.4 when it failed for that
+customer.
+
+### Evaluation
+
+Score distribution: mean 42.5 · median 41.6 · max 98.6 · 1 tie at the maximum
+
+| Band | Customers | Value at risk |
+|---|---|---|
+| Critical | 54 | 2,529,042 |
+| High | 34 | 1,363,836 |
+| Medium | 28 | 528,048 |
+| Low | 84 | 190,109 |
+
+Mean score by archetype, against ground-truth churn:
+
+| Archetype | Mean score | Actual churn |
+|---|---|---|
+| healthy_loyal | 0.4 | 0% |
+| loud_but_stable | 31.9 | 10% |
+| new_fragile | 49.9 | 30% |
+| quiet_drifter | 62.8 | 70% |
+| billing_wounded | 82.8 | 60% |
+| escalating_churner | 97.6 | 100% |
+
+The ordering is monotonic with observed churn, and critically the quiet
+drifter (62.8, High) outranks the vocal complainer (31.9, Medium) despite
+raising a tenth as many support tickets. A sentiment-driven system inverts
+this ordering.
+
+Precision at K: P@5 100% · P@10 100% · P@20 95% · P@30 93% · P@50 72%
+
+Confusion matrix, flagging High and Critical:
+
+| | Churned | Retained |
+|---|---|---|
+| **Flagged** | 61 | 27 |
+| **Not flagged** | 8 | 104 |
+
+Precision 69% · Recall 88% · F1 0.78
+
+**Recall is deliberately prioritised over precision.** A false positive costs
+one courtesy call to a satisfied customer; a false negative costs the
+account. The 27 false positives are an acceptable price for catching 61 of
+69 departures.
+
+### Limitation
+
+These metrics validate that the detection logic behaves as designed against
+known planted patterns. They are not a claim of real-world predictive
+accuracy, which would require historical churn outcomes. Because the
+patterns were self-designed, tuning weights against these results would be
+circular; weights were therefore left at their initial documented values
+rather than optimised.

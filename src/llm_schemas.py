@@ -62,3 +62,50 @@ class ConversationAnalysis(BaseModel):
 class BatchAnalysis(BaseModel):
     """What the model returns for one customer: all their conversations."""
     conversations: List[ConversationAnalysis]
+
+
+# --------------------------------------------------------------------------
+# RECOMMENDATION (Phase 7)
+# --------------------------------------------------------------------------
+# The action vocabulary is CLOSED. Free-form actions cannot be routed to a
+# team, counted in a report, or measured for effectiveness. "Reach out warmly
+# and rebuild trust" is not a work item; RETENTION_OFFER is.
+ACTIONS = (
+    "IMMEDIATE_CALL",         # senior agent phones within 24h
+    "RETENTION_OFFER",        # discount or credit, needs approval
+    "BILLING_REVIEW",         # finance investigates charges
+    "TECHNICAL_ESCALATION",   # engineering ticket, priority raised
+    "PROACTIVE_CHECKIN",      # CSM email within 3 days
+    "ONBOARDING_SUPPORT",     # re-run onboarding or training session
+    "USAGE_NUDGE",            # automated re-engagement campaign
+    "MONITOR_ONLY",           # no action, review next cycle
+)
+
+
+class Recommendation(BaseModel):
+    """What the Recommendation Agent returns for one customer."""
+
+    action: Literal[ACTIONS]
+    explanation: str = Field(min_length=20, max_length=600)
+    talking_points: List[str] = Field(min_length=1, max_length=4)
+
+    @field_validator("explanation")
+    @classmethod
+    def no_jargon(cls, v):
+        """The explanation is read by a retention agent with 30 seconds
+        before dialling, not by a data scientist."""
+        banned = ("churn score", "risk score of", "the model", "algorithm",
+                  "weighted sum", "our system predicts")
+        low = v.lower()
+        for term in banned:
+            if term in low:
+                raise ValueError(f"explanation should avoid jargon: '{term}'")
+        return v.strip()
+
+    @field_validator("talking_points")
+    @classmethod
+    def points_substantive(cls, v):
+        cleaned = [p.strip() for p in v if p and len(p.strip()) > 10]
+        if not cleaned:
+            raise ValueError("at least one usable talking point required")
+        return cleaned
