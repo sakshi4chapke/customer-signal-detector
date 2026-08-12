@@ -1,0 +1,32 @@
+file,column,data_type,meaning,role
+customers.csv,customer_id,string,Unique customer identifier,Join key
+customers.csv,name,string,Contact name,Display only
+customers.csv,segment,category,Enterprise / Mid-Market / SMB / Startup,Grouping
+customers.csv,plan_tier,category,Basic / Standard / Premium / Enterprise,Context
+customers.csv,monthly_revenue,float,Monthly recurring revenue,Revenue-at-risk KPI
+customers.csv,tenure_months,int,Months since signup,NEW_CUSTOMER_FRAGILE
+customers.csv,signup_date,date,Account creation date,Cross-check on tenure
+customers.csv,last_login_days_ago,int,Days since last login,INACTIVITY
+customers.csv,logins_last_30d,int,"Login count, trailing 30 days",LOGIN_DROP
+customers.csv,usage_pct_change_30d,float,% change vs previous 30 days,USAGE_DECLINE
+customers.csv,support_tickets_90d,int,"Tickets raised, trailing 90 days",SUPPORT_SPIKE
+customers.csv,unresolved_tickets_90d,int,"Of those, still open",UNRESOLVED_BACKLOG
+customers.csv,avg_resolution_hours,float,Mean time to resolve,SLOW_RESOLUTION
+customers.csv,failed_payments_90d,int,Failed payment attempts,PAYMENT_FAILURE
+customers.csv,days_since_last_payment,int,Days since last successful payment,OVERDUE
+customers.csv,nps_score,"int, nullable",Net Promoter Score 0-10; null = no response,LOW_NPS / NPS_SILENCE
+customers.csv,csat_avg,"float, nullable",Mean satisfaction 1-5,LOW_CSAT
+customers.csv,plan_changed_last_90d,category,none / upgrade / downgrade,DOWNGRADE
+customers.csv,contract_end_days,int,Days until renewal date,CONTRACT_ENDING
+customers.csv,region,"category, nullable",Geographic region,Grouping
+conversations.csv,conversation_id,string,Unique conversation identifier,Join key
+conversations.csv,customer_id,string,Owning customer,Join key
+conversations.csv,timestamp,datetime,When the conversation occurred,Recency weighting
+conversations.csv,channel,category,chat / email / phone_transcript,Context
+conversations.csv,agent_id,string,Support agent handling it,Context
+conversations.csv,duration_minutes,float,Conversation length,Context
+conversations.csv,transcript,text,Multi-turn customer/agent dialogue,PRIMARY LLM INPUT
+conversations.csv,resolved_flag,int,1 if the issue was resolved,REPEAT_ISSUE support
+answer_key.csv,customer_id,string,Join key,Evaluation only
+answer_key.csv,_archetype,category,Which recipe generated this customer,Evaluation only
+answer_key.csv,churned_flag,int,Ground truth churn label,Evaluation only

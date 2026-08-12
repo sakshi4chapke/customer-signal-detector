@@ -1,0 +1,1684 @@
+conversation_id,customer_id,timestamp,channel,agent_id,duration_minutes,transcript,resolved_flag
+CONV00001,CUST0002,2026-07-20 16:46:00,email,AGT003,21.6,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00002,CUST0003,2026-08-02 12:34:00,phone_transcript,AGT008,34.6,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00003,CUST0003,2026-08-05 17:12:00,phone_transcript,AGT010,39.5,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00004,CUST0003,2026-08-01 09:27:00,email,AGT002,41.4,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00005,CUST0004,2026-07-28 06:03:00,chat,AGT010,25.1,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",1
+CONV00006,CUST0004,2026-06-28 07:32:00,phone_transcript,AGT004,32.8,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00007,CUST0004,2026-07-15 07:32:00,email,AGT003,24.1,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00008,CUST0004,2026-08-10 22:25:00,phone_transcript,AGT005,33.1,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",1
+CONV00009,CUST0005,2026-07-23 23:13:00,phone_transcript,AGT002,3.9,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00010,CUST0005,2026-06-19 21:26:00,chat,AGT008,3.4,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00011,CUST0005,2026-07-16 19:11:00,phone_transcript,AGT011,43.4,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00012,CUST0005,2026-07-23 11:32:00,email,AGT002,31.4,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00013,CUST0005,2026-08-02 06:52:00,email,AGT002,9.7,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00014,CUST0005,2026-08-01 07:52:00,chat,AGT001,34.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00015,CUST0006,2026-08-10 09:17:00,phone_transcript,AGT007,24.9,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00016,CUST0006,2026-07-31 16:31:00,chat,AGT005,10.1,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00017,CUST0006,2026-07-31 20:58:00,email,AGT010,34.9,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00018,CUST0006,2026-05-14 23:45:00,chat,AGT002,27.5,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00019,CUST0007,2026-07-27 02:15:00,chat,AGT012,3.9,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00020,CUST0007,2026-08-10 06:47:00,chat,AGT009,44.7,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00021,CUST0008,2026-05-24 00:24:00,phone_transcript,AGT010,35.2,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00022,CUST0011,2026-07-07 16:41:00,phone_transcript,AGT009,11.5,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00023,CUST0011,2026-08-07 22:25:00,phone_transcript,AGT003,28.9,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00024,CUST0011,2026-07-29 08:57:00,phone_transcript,AGT011,18.4,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00025,CUST0011,2026-07-29 01:34:00,chat,AGT005,18.2,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00026,CUST0012,2026-08-01 08:45:00,email,AGT012,8.2,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00027,CUST0012,2026-07-15 22:25:00,email,AGT009,24.8,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00028,CUST0012,2026-07-03 15:47:00,phone_transcript,AGT002,41.7,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00029,CUST0012,2026-06-07 21:26:00,chat,AGT005,18.2,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00030,CUST0012,2026-08-05 22:05:00,chat,AGT010,33.1,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00031,CUST0012,2026-07-30 08:47:00,email,AGT001,11.1,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00032,CUST0013,2026-08-11 00:53:00,email,AGT004,31.9,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00033,CUST0013,2026-07-09 11:02:00,phone_transcript,AGT006,35.3,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00034,CUST0013,2026-07-06 06:19:00,email,AGT005,17.5,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00035,CUST0013,2026-08-05 09:54:00,email,AGT006,41.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00036,CUST0013,2026-07-15 10:58:00,chat,AGT012,8.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00037,CUST0013,2026-08-09 05:23:00,email,AGT005,8.6,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00038,CUST0014,2026-08-09 11:24:00,email,AGT009,30.1,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",1
+CONV00039,CUST0015,2026-06-22 15:12:00,phone_transcript,AGT011,33.8,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00040,CUST0015,2026-07-19 00:10:00,chat,AGT003,33.0,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00041,CUST0015,2026-07-25 06:19:00,phone_transcript,AGT001,38.1,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00042,CUST0015,2026-08-07 02:57:00,email,AGT003,38.2,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00043,CUST0016,2026-08-11 01:51:00,chat,AGT009,21.6,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00044,CUST0016,2026-08-02 03:18:00,phone_transcript,AGT008,2.7,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00045,CUST0016,2026-08-04 11:00:00,phone_transcript,AGT012,13.8,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00046,CUST0016,2026-07-31 23:28:00,chat,AGT002,41.5,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00047,CUST0016,2026-08-09 16:48:00,email,AGT005,36.2,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00048,CUST0016,2026-06-03 11:31:00,phone_transcript,AGT004,14.9,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00049,CUST0016,2026-07-22 21:19:00,chat,AGT007,18.3,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00050,CUST0017,2026-06-29 22:20:00,phone_transcript,AGT003,5.6,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00051,CUST0017,2026-08-03 03:10:00,phone_transcript,AGT002,40.5,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",0
+CONV00052,CUST0018,2026-07-20 16:47:00,phone_transcript,AGT008,13.7,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00053,CUST0018,2026-07-24 02:01:00,phone_transcript,AGT010,30.3,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00054,CUST0018,2026-06-10 13:59:00,phone_transcript,AGT003,34.3,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00055,CUST0019,2026-07-21 11:01:00,email,AGT003,26.3,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00056,CUST0019,2026-07-22 11:17:00,email,AGT007,34.5,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00057,CUST0020,2026-07-25 01:14:00,phone_transcript,AGT012,43.9,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00058,CUST0021,2026-08-08 10:46:00,email,AGT010,35.1,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00059,CUST0021,2026-06-30 11:11:00,chat,AGT011,13.8,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00060,CUST0022,2026-07-14 08:46:00,phone_transcript,AGT007,20.6,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00061,CUST0022,2026-07-23 02:36:00,phone_transcript,AGT005,36.3,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00062,CUST0023,2026-07-02 21:43:00,email,AGT012,35.7,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00063,CUST0024,2026-08-06 11:40:00,chat,AGT002,2.2,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00064,CUST0024,2026-06-30 12:12:00,chat,AGT003,5.8,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00065,CUST0024,2026-08-02 06:25:00,email,AGT002,3.1,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00066,CUST0024,2026-08-11 21:22:00,email,AGT007,2.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00067,CUST0024,2026-08-07 21:14:00,chat,AGT010,24.4,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00068,CUST0024,2026-08-05 18:52:00,email,AGT005,23.2,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00069,CUST0025,2026-05-14 10:43:00,email,AGT008,35.7,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",1
+CONV00070,CUST0025,2026-07-17 16:14:00,email,AGT010,28.5,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00071,CUST0026,2026-07-21 19:41:00,email,AGT006,38.2,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00072,CUST0026,2026-07-26 13:32:00,email,AGT011,43.9,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00073,CUST0026,2026-08-02 13:22:00,email,AGT006,9.6,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00074,CUST0027,2026-07-26 13:42:00,phone_transcript,AGT011,23.1,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00075,CUST0027,2026-07-19 16:40:00,email,AGT007,17.7,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",0
+CONV00076,CUST0028,2026-06-28 17:23:00,chat,AGT011,35.0,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00077,CUST0028,2026-08-02 00:31:00,chat,AGT008,36.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00078,CUST0028,2026-05-27 21:08:00,phone_transcript,AGT008,8.0,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00079,CUST0028,2026-06-29 15:18:00,phone_transcript,AGT007,35.9,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00080,CUST0030,2026-08-08 04:30:00,email,AGT009,23.8,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00081,CUST0032,2026-07-25 01:34:00,chat,AGT006,32.2,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00082,CUST0032,2026-08-05 04:20:00,chat,AGT004,30.3,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00083,CUST0032,2026-08-09 03:21:00,phone_transcript,AGT011,31.1,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00084,CUST0032,2026-07-05 13:10:00,chat,AGT001,6.2,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00085,CUST0034,2026-07-25 00:27:00,phone_transcript,AGT012,26.7,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00086,CUST0034,2026-07-28 11:31:00,phone_transcript,AGT012,23.5,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00087,CUST0035,2026-06-25 23:30:00,email,AGT007,41.6,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00088,CUST0035,2026-08-11 00:51:00,email,AGT006,21.6,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00089,CUST0035,2026-08-11 08:38:00,chat,AGT008,33.0,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00090,CUST0035,2026-07-19 21:41:00,phone_transcript,AGT002,3.0,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00091,CUST0035,2026-07-31 20:17:00,phone_transcript,AGT004,24.2,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00092,CUST0036,2026-08-10 13:25:00,email,AGT004,36.3,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00093,CUST0036,2026-07-05 18:20:00,email,AGT007,3.3,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00094,CUST0037,2026-08-06 17:32:00,email,AGT007,2.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00095,CUST0038,2026-05-14 15:12:00,chat,AGT010,6.4,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00096,CUST0038,2026-08-10 18:37:00,chat,AGT008,6.9,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",0
+CONV00097,CUST0039,2026-05-14 08:27:00,email,AGT010,18.7,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00098,CUST0039,2026-08-05 20:38:00,email,AGT010,9.4,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00099,CUST0040,2026-08-10 14:02:00,phone_transcript,AGT003,15.5,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00100,CUST0040,2026-07-04 20:49:00,phone_transcript,AGT003,24.0,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00101,CUST0040,2026-08-04 19:24:00,email,AGT003,22.9,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00102,CUST0040,2026-08-07 03:01:00,phone_transcript,AGT003,23.1,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00103,CUST0040,2026-07-13 13:07:00,phone_transcript,AGT001,39.2,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00104,CUST0041,2026-07-25 08:52:00,email,AGT009,23.7,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00105,CUST0041,2026-05-14 02:29:00,phone_transcript,AGT008,23.0,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00106,CUST0041,2026-06-30 23:10:00,email,AGT001,13.8,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00107,CUST0042,2026-08-05 18:11:00,phone_transcript,AGT012,35.2,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00108,CUST0042,2026-08-07 07:53:00,chat,AGT005,35.3,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00109,CUST0043,2026-07-29 12:26:00,phone_transcript,AGT008,25.5,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",0
+CONV00110,CUST0044,2026-07-03 20:13:00,chat,AGT005,39.6,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00111,CUST0044,2026-07-30 15:38:00,email,AGT002,35.4,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00112,CUST0044,2026-07-16 00:23:00,email,AGT012,28.2,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00113,CUST0044,2026-08-01 04:52:00,chat,AGT001,26.5,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00114,CUST0045,2026-07-29 04:26:00,email,AGT012,14.6,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00115,CUST0045,2026-06-29 07:03:00,chat,AGT007,41.5,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00116,CUST0045,2026-07-09 03:52:00,chat,AGT003,32.6,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00117,CUST0045,2026-07-06 02:35:00,chat,AGT010,29.2,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00118,CUST0045,2026-08-11 11:32:00,phone_transcript,AGT002,19.3,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00119,CUST0046,2026-08-08 01:01:00,email,AGT008,16.1,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00120,CUST0047,2026-08-11 00:55:00,email,AGT011,30.6,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00121,CUST0047,2026-08-04 21:10:00,email,AGT004,43.6,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00122,CUST0047,2026-07-07 08:43:00,email,AGT006,25.5,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00123,CUST0048,2026-08-06 08:10:00,phone_transcript,AGT001,4.0,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00124,CUST0048,2026-07-18 09:59:00,chat,AGT008,21.6,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00125,CUST0048,2026-08-02 10:48:00,chat,AGT011,15.0,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00126,CUST0048,2026-06-28 15:55:00,email,AGT005,5.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00127,CUST0050,2026-08-06 03:50:00,email,AGT011,15.1,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00128,CUST0050,2026-08-10 16:33:00,chat,AGT012,6.1,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00129,CUST0050,2026-08-10 21:52:00,chat,AGT009,31.2,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00130,CUST0051,2026-08-09 01:39:00,email,AGT012,7.7,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00131,CUST0051,2026-07-23 11:55:00,chat,AGT002,15.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00132,CUST0051,2026-07-27 19:36:00,phone_transcript,AGT011,8.1,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00133,CUST0052,2026-08-04 23:21:00,email,AGT006,33.1,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",1
+CONV00134,CUST0053,2026-07-26 19:02:00,phone_transcript,AGT011,21.0,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00135,CUST0053,2026-08-07 20:52:00,phone_transcript,AGT012,18.5,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00136,CUST0053,2026-08-02 13:10:00,chat,AGT005,29.7,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00137,CUST0054,2026-07-16 04:22:00,phone_transcript,AGT005,35.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00138,CUST0054,2026-07-01 02:04:00,chat,AGT009,28.1,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00139,CUST0054,2026-07-19 11:42:00,chat,AGT004,23.3,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00140,CUST0054,2026-06-23 08:20:00,chat,AGT009,40.2,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00141,CUST0054,2026-07-30 12:01:00,chat,AGT007,39.0,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00142,CUST0055,2026-06-17 12:26:00,chat,AGT008,43.0,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00143,CUST0057,2026-07-16 23:23:00,chat,AGT005,11.3,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00144,CUST0057,2026-06-01 11:28:00,phone_transcript,AGT012,23.5,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00145,CUST0057,2026-07-01 01:35:00,phone_transcript,AGT009,25.1,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00146,CUST0058,2026-08-04 21:41:00,phone_transcript,AGT004,43.9,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",1
+CONV00147,CUST0058,2026-06-27 13:35:00,phone_transcript,AGT011,31.3,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",1
+CONV00148,CUST0058,2026-08-11 01:33:00,chat,AGT001,12.5,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00149,CUST0058,2026-06-14 20:31:00,phone_transcript,AGT001,15.3,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00150,CUST0060,2026-07-17 00:49:00,chat,AGT012,7.9,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",1
+CONV00151,CUST0061,2026-07-30 08:38:00,phone_transcript,AGT012,13.1,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00152,CUST0061,2026-07-28 00:11:00,phone_transcript,AGT002,35.2,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00153,CUST0061,2026-08-05 10:43:00,chat,AGT005,32.6,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00154,CUST0061,2026-06-17 21:29:00,phone_transcript,AGT006,4.4,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00155,CUST0062,2026-07-24 18:37:00,email,AGT002,40.5,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00156,CUST0062,2026-08-07 20:46:00,phone_transcript,AGT001,3.9,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00157,CUST0063,2026-05-14 16:58:00,email,AGT007,41.6,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00158,CUST0063,2026-07-28 22:25:00,phone_transcript,AGT011,20.0,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00159,CUST0063,2026-08-10 10:02:00,email,AGT005,37.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00160,CUST0063,2026-08-11 20:28:00,chat,AGT003,11.6,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00161,CUST0063,2026-07-08 22:35:00,email,AGT005,35.3,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00162,CUST0064,2026-08-10 21:25:00,chat,AGT006,10.6,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00163,CUST0064,2026-08-10 14:13:00,email,AGT006,27.4,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00164,CUST0064,2026-08-11 17:14:00,chat,AGT001,42.1,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00165,CUST0065,2026-07-25 06:38:00,phone_transcript,AGT001,42.9,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00166,CUST0065,2026-07-30 02:36:00,phone_transcript,AGT005,6.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00167,CUST0067,2026-05-14 16:34:00,chat,AGT003,32.6,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00168,CUST0067,2026-05-15 16:03:00,email,AGT012,40.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00169,CUST0067,2026-06-01 00:55:00,chat,AGT009,7.7,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00170,CUST0067,2026-07-04 21:23:00,chat,AGT007,30.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00171,CUST0068,2026-08-07 14:44:00,email,AGT012,37.8,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00172,CUST0068,2026-08-09 09:43:00,chat,AGT004,7.9,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00173,CUST0069,2026-06-28 20:51:00,chat,AGT008,22.0,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00174,CUST0070,2026-08-11 06:38:00,email,AGT005,21.9,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00175,CUST0070,2026-08-09 21:50:00,phone_transcript,AGT012,27.9,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00176,CUST0070,2026-05-18 13:51:00,phone_transcript,AGT004,43.6,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00177,CUST0070,2026-08-03 22:17:00,email,AGT003,3.3,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00178,CUST0071,2026-08-05 09:25:00,phone_transcript,AGT004,6.1,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00179,CUST0071,2026-05-14 19:53:00,chat,AGT004,7.6,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00180,CUST0071,2026-07-15 12:17:00,phone_transcript,AGT002,27.0,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00181,CUST0071,2026-08-11 21:59:00,chat,AGT011,21.1,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00182,CUST0071,2026-08-04 13:53:00,email,AGT001,9.2,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00183,CUST0072,2026-07-05 00:35:00,chat,AGT007,31.4,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00184,CUST0072,2026-07-17 17:02:00,email,AGT005,21.2,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00185,CUST0072,2026-07-24 04:21:00,phone_transcript,AGT005,23.5,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00186,CUST0072,2026-08-10 08:57:00,email,AGT007,7.9,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00187,CUST0072,2026-05-17 07:45:00,email,AGT012,17.4,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00188,CUST0072,2026-07-02 08:38:00,email,AGT005,9.7,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00189,CUST0073,2026-05-14 16:59:00,chat,AGT008,24.8,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00190,CUST0073,2026-07-19 16:50:00,chat,AGT011,12.4,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00191,CUST0075,2026-08-07 00:57:00,phone_transcript,AGT007,17.3,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00192,CUST0075,2026-08-10 18:49:00,phone_transcript,AGT006,36.7,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00193,CUST0075,2026-08-09 05:59:00,phone_transcript,AGT010,8.1,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00194,CUST0075,2026-07-20 08:26:00,chat,AGT008,3.6,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00195,CUST0075,2026-08-09 04:46:00,phone_transcript,AGT008,2.0,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00196,CUST0075,2026-07-31 17:09:00,email,AGT012,9.6,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00197,CUST0076,2026-07-28 13:57:00,chat,AGT010,32.3,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00198,CUST0077,2026-08-07 20:06:00,email,AGT002,18.1,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00199,CUST0077,2026-08-04 11:23:00,email,AGT005,15.9,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00200,CUST0077,2026-06-07 00:33:00,email,AGT011,15.6,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00201,CUST0078,2026-08-06 06:16:00,chat,AGT011,27.3,"Customer: How do I download an invoice?
+Agent: Billing > Invoices > Download PDF.
+Customer: ok",1
+CONV00202,CUST0079,2026-08-11 14:14:00,email,AGT003,9.6,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00203,CUST0080,2026-08-03 01:24:00,phone_transcript,AGT001,9.8,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",1
+CONV00204,CUST0081,2026-08-02 04:46:00,email,AGT003,16.2,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",1
+CONV00205,CUST0082,2026-06-26 12:40:00,phone_transcript,AGT002,37.3,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00206,CUST0082,2026-06-10 00:04:00,email,AGT001,13.4,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00207,CUST0082,2026-08-04 21:38:00,chat,AGT012,2.1,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00208,CUST0082,2026-07-07 00:34:00,email,AGT008,39.9,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00209,CUST0082,2026-07-27 11:54:00,phone_transcript,AGT011,34.6,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00210,CUST0083,2026-07-08 09:56:00,email,AGT001,15.7,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00211,CUST0083,2026-07-22 21:39:00,email,AGT003,33.5,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00212,CUST0083,2026-08-07 21:39:00,phone_transcript,AGT008,32.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00213,CUST0083,2026-08-10 03:50:00,email,AGT003,4.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00214,CUST0083,2026-08-02 17:34:00,phone_transcript,AGT012,41.8,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00215,CUST0083,2026-07-08 02:42:00,chat,AGT002,4.1,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00216,CUST0084,2026-06-03 08:51:00,email,AGT001,20.4,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00217,CUST0084,2026-08-10 02:20:00,email,AGT004,6.2,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00218,CUST0085,2026-08-09 03:42:00,email,AGT002,15.3,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00219,CUST0085,2026-07-14 08:03:00,email,AGT002,29.6,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00220,CUST0085,2026-08-09 12:04:00,email,AGT003,21.2,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00221,CUST0086,2026-08-05 09:44:00,email,AGT010,4.7,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00222,CUST0087,2026-08-07 02:54:00,phone_transcript,AGT006,36.8,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00223,CUST0087,2026-08-01 05:46:00,chat,AGT007,37.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00224,CUST0088,2026-07-23 06:17:00,phone_transcript,AGT004,22.5,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00225,CUST0088,2026-07-20 01:58:00,phone_transcript,AGT009,36.4,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00226,CUST0088,2026-07-25 04:51:00,email,AGT003,42.8,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00227,CUST0089,2026-08-09 17:09:00,chat,AGT001,20.2,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00228,CUST0089,2026-08-07 10:48:00,chat,AGT010,13.1,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00229,CUST0089,2026-08-09 21:55:00,phone_transcript,AGT007,25.7,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00230,CUST0089,2026-07-21 07:31:00,phone_transcript,AGT010,27.3,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00231,CUST0089,2026-06-20 20:34:00,chat,AGT010,27.3,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00232,CUST0090,2026-08-07 20:01:00,phone_transcript,AGT002,35.8,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00233,CUST0090,2026-07-27 12:04:00,email,AGT007,30.2,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00234,CUST0090,2026-08-11 08:58:00,email,AGT007,8.2,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00235,CUST0090,2026-08-04 01:35:00,email,AGT006,31.7,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00236,CUST0090,2026-07-10 08:02:00,email,AGT001,16.5,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00237,CUST0090,2026-05-14 14:43:00,phone_transcript,AGT011,6.2,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00238,CUST0090,2026-08-09 19:41:00,email,AGT005,33.3,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00239,CUST0091,2026-07-16 21:48:00,chat,AGT007,33.9,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00240,CUST0093,2026-07-09 12:08:00,phone_transcript,AGT003,4.8,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00241,CUST0093,2026-06-30 11:52:00,phone_transcript,AGT001,9.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00242,CUST0093,2026-07-19 17:07:00,chat,AGT001,21.6,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00243,CUST0094,2026-08-01 01:48:00,email,AGT008,23.7,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00244,CUST0094,2026-07-04 20:17:00,chat,AGT006,23.0,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00245,CUST0094,2026-07-22 08:23:00,email,AGT006,9.0,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00246,CUST0094,2026-08-11 00:07:00,chat,AGT005,3.2,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00247,CUST0095,2026-06-27 05:11:00,chat,AGT011,11.7,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00248,CUST0095,2026-06-28 03:34:00,chat,AGT011,2.4,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00249,CUST0095,2026-08-11 03:49:00,chat,AGT004,12.9,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00250,CUST0097,2026-07-07 14:15:00,phone_transcript,AGT005,20.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00251,CUST0098,2026-08-02 12:31:00,chat,AGT008,15.0,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",0
+CONV00252,CUST0098,2026-08-07 04:35:00,chat,AGT001,24.0,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00253,CUST0098,2026-08-02 12:25:00,phone_transcript,AGT010,14.2,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00254,CUST0098,2026-06-20 08:56:00,email,AGT011,16.0,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",1
+CONV00255,CUST0099,2026-08-08 03:15:00,email,AGT004,8.4,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00256,CUST0099,2026-07-30 22:09:00,email,AGT011,15.7,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00257,CUST0099,2026-07-17 23:19:00,email,AGT005,41.0,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00258,CUST0100,2026-06-18 00:58:00,phone_transcript,AGT010,37.1,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00259,CUST0101,2026-08-08 01:46:00,phone_transcript,AGT006,23.8,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00260,CUST0101,2026-07-15 02:04:00,email,AGT002,22.2,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00261,CUST0101,2026-08-11 00:09:00,phone_transcript,AGT006,30.1,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00262,CUST0101,2026-08-07 16:13:00,email,AGT006,18.0,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00263,CUST0101,2026-08-11 09:06:00,email,AGT001,39.3,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00264,CUST0102,2026-08-01 04:56:00,chat,AGT009,7.2,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00265,CUST0104,2026-08-09 07:41:00,chat,AGT003,7.9,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00266,CUST0104,2026-07-20 10:24:00,chat,AGT006,39.1,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00267,CUST0104,2026-07-26 21:29:00,phone_transcript,AGT003,15.5,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00268,CUST0104,2026-07-17 09:43:00,chat,AGT010,34.9,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00269,CUST0104,2026-08-10 21:52:00,phone_transcript,AGT007,19.3,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00270,CUST0104,2026-07-21 12:00:00,phone_transcript,AGT004,33.4,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00271,CUST0104,2026-07-22 13:12:00,chat,AGT011,2.2,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00272,CUST0105,2026-08-10 16:16:00,email,AGT003,6.4,"Customer: How do I download an invoice?
+Agent: Billing > Invoices > Download PDF.
+Customer: ok",1
+CONV00273,CUST0106,2026-07-14 14:50:00,chat,AGT005,42.8,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",1
+CONV00274,CUST0107,2026-07-19 07:22:00,email,AGT007,40.2,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00275,CUST0107,2026-08-11 13:03:00,email,AGT004,9.1,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00276,CUST0107,2026-08-02 11:59:00,chat,AGT012,44.3,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00277,CUST0108,2026-08-09 23:23:00,chat,AGT002,17.8,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00278,CUST0108,2026-08-10 22:36:00,email,AGT009,28.8,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00279,CUST0108,2026-08-01 22:18:00,phone_transcript,AGT001,4.1,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00280,CUST0108,2026-07-04 09:36:00,phone_transcript,AGT005,22.4,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00281,CUST0108,2026-07-12 01:17:00,chat,AGT005,20.1,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00282,CUST0109,2026-06-29 07:43:00,phone_transcript,AGT012,7.9,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00283,CUST0109,2026-07-24 20:28:00,phone_transcript,AGT002,14.2,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00284,CUST0109,2026-07-31 08:48:00,chat,AGT005,37.8,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00285,CUST0110,2026-08-02 12:15:00,email,AGT003,3.7,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00286,CUST0110,2026-07-28 17:16:00,email,AGT004,2.1,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00287,CUST0110,2026-08-09 20:07:00,phone_transcript,AGT008,8.4,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00288,CUST0111,2026-08-10 07:56:00,email,AGT011,11.9,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00289,CUST0111,2026-07-02 14:44:00,chat,AGT002,37.0,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00290,CUST0111,2026-07-06 14:37:00,email,AGT012,7.0,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00291,CUST0111,2026-07-09 23:00:00,phone_transcript,AGT011,9.3,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00292,CUST0111,2026-08-03 09:21:00,phone_transcript,AGT002,18.0,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00293,CUST0111,2026-08-07 20:35:00,email,AGT005,37.9,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00294,CUST0112,2026-07-17 08:09:00,phone_transcript,AGT003,6.9,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00295,CUST0112,2026-07-04 22:06:00,chat,AGT007,41.2,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00296,CUST0112,2026-08-08 05:17:00,chat,AGT010,18.3,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00297,CUST0112,2026-07-29 23:05:00,phone_transcript,AGT003,22.8,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00298,CUST0113,2026-07-08 10:32:00,chat,AGT005,30.2,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00299,CUST0114,2026-07-21 02:27:00,phone_transcript,AGT012,26.3,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",0
+CONV00300,CUST0114,2026-07-20 02:05:00,phone_transcript,AGT009,31.6,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00301,CUST0115,2026-07-22 10:18:00,email,AGT006,30.5,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00302,CUST0115,2026-05-14 19:07:00,chat,AGT011,42.2,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00303,CUST0115,2026-08-07 08:06:00,chat,AGT002,34.3,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00304,CUST0116,2026-08-11 13:43:00,phone_transcript,AGT004,25.7,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00305,CUST0116,2026-06-28 16:55:00,email,AGT010,21.3,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00306,CUST0116,2026-08-04 09:40:00,email,AGT012,30.1,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00307,CUST0116,2026-07-24 10:58:00,phone_transcript,AGT001,37.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00308,CUST0117,2026-07-04 04:20:00,phone_transcript,AGT009,10.9,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00309,CUST0117,2026-08-10 13:37:00,chat,AGT008,16.3,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00310,CUST0118,2026-07-28 04:30:00,phone_transcript,AGT006,32.8,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00311,CUST0118,2026-06-21 02:46:00,email,AGT006,37.7,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00312,CUST0118,2026-06-26 14:25:00,email,AGT012,6.6,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00313,CUST0118,2026-08-06 08:52:00,phone_transcript,AGT012,19.6,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00314,CUST0119,2026-07-28 17:48:00,email,AGT004,21.7,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00315,CUST0119,2026-06-03 01:39:00,email,AGT001,41.8,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00316,CUST0119,2026-07-12 05:53:00,email,AGT011,27.3,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00317,CUST0120,2026-08-09 09:00:00,phone_transcript,AGT001,25.8,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00318,CUST0123,2026-06-12 05:30:00,chat,AGT012,26.9,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00319,CUST0124,2026-07-10 19:54:00,phone_transcript,AGT010,28.1,"Customer: How do I download an invoice?
+Agent: Billing > Invoices > Download PDF.
+Customer: ok",1
+CONV00320,CUST0125,2026-08-07 11:34:00,email,AGT007,43.4,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00321,CUST0125,2026-07-19 09:09:00,chat,AGT007,27.9,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00322,CUST0125,2026-08-08 07:41:00,phone_transcript,AGT012,42.2,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00323,CUST0126,2026-06-09 17:47:00,phone_transcript,AGT005,31.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00324,CUST0126,2026-07-27 19:15:00,chat,AGT009,25.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00325,CUST0126,2026-08-11 01:53:00,phone_transcript,AGT008,27.1,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00326,CUST0126,2026-08-03 01:34:00,phone_transcript,AGT009,14.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00327,CUST0126,2026-08-10 23:27:00,chat,AGT007,8.2,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00328,CUST0127,2026-08-04 17:43:00,email,AGT011,12.8,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",1
+CONV00329,CUST0128,2026-08-03 01:10:00,chat,AGT009,3.4,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00330,CUST0128,2026-07-04 20:21:00,phone_transcript,AGT009,39.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00331,CUST0129,2026-08-04 06:36:00,phone_transcript,AGT012,14.4,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00332,CUST0130,2026-07-28 11:36:00,phone_transcript,AGT006,43.5,"Customer: How do I download an invoice?
+Agent: Billing > Invoices > Download PDF.
+Customer: ok",1
+CONV00333,CUST0133,2026-08-10 00:44:00,phone_transcript,AGT008,37.7,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",0
+CONV00334,CUST0134,2026-06-25 01:15:00,email,AGT010,25.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00335,CUST0134,2026-08-10 00:48:00,email,AGT003,44.3,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00336,CUST0134,2026-07-18 18:13:00,chat,AGT007,3.7,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00337,CUST0135,2026-08-08 15:52:00,phone_transcript,AGT005,2.2,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00338,CUST0135,2026-07-23 19:58:00,email,AGT010,4.2,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00339,CUST0135,2026-07-29 04:07:00,email,AGT008,36.0,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00340,CUST0136,2026-08-09 21:10:00,email,AGT009,11.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00341,CUST0136,2026-08-05 21:10:00,chat,AGT007,25.4,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00342,CUST0136,2026-07-10 12:46:00,phone_transcript,AGT006,16.2,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00343,CUST0136,2026-07-23 04:27:00,phone_transcript,AGT011,2.4,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00344,CUST0137,2026-06-19 09:45:00,phone_transcript,AGT010,12.5,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00345,CUST0137,2026-07-30 13:36:00,email,AGT005,25.2,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00346,CUST0138,2026-07-29 07:08:00,phone_transcript,AGT009,21.2,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00347,CUST0138,2026-08-04 03:48:00,phone_transcript,AGT002,42.8,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00348,CUST0138,2026-07-10 06:26:00,phone_transcript,AGT002,11.1,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00349,CUST0138,2026-05-14 17:05:00,chat,AGT004,25.1,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00350,CUST0139,2026-08-08 00:11:00,phone_transcript,AGT002,34.1,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00351,CUST0139,2026-07-10 09:15:00,chat,AGT002,5.1,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00352,CUST0139,2026-08-06 15:25:00,phone_transcript,AGT004,41.2,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00353,CUST0141,2026-08-02 09:20:00,email,AGT006,2.7,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00354,CUST0141,2026-05-30 07:00:00,phone_transcript,AGT010,4.7,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00355,CUST0142,2026-08-01 22:16:00,email,AGT009,6.6,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00356,CUST0142,2026-08-08 14:22:00,email,AGT008,18.4,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00357,CUST0142,2026-08-07 23:30:00,phone_transcript,AGT004,7.9,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00358,CUST0142,2026-08-05 06:42:00,chat,AGT005,31.1,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00359,CUST0142,2026-08-04 00:19:00,chat,AGT009,39.6,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",1
+CONV00360,CUST0143,2026-07-14 23:00:00,phone_transcript,AGT007,25.1,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",0
+CONV00361,CUST0143,2026-07-23 14:47:00,phone_transcript,AGT012,16.8,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00362,CUST0146,2026-07-30 03:06:00,chat,AGT003,11.5,"Customer: Password reset link isnt arriving.
+Agent: I've triggered a new one, please check spam.
+Customer: got it thanks",1
+CONV00363,CUST0147,2026-08-10 17:53:00,phone_transcript,AGT010,38.6,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00364,CUST0147,2026-07-12 06:31:00,phone_transcript,AGT002,14.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00365,CUST0147,2026-07-23 20:48:00,phone_transcript,AGT008,42.9,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00366,CUST0147,2026-08-09 02:19:00,chat,AGT005,28.6,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00367,CUST0148,2026-06-26 13:29:00,email,AGT010,30.4,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00368,CUST0149,2026-08-07 19:24:00,email,AGT007,9.3,"Customer: How do I download an invoice?
+Agent: Billing > Invoices > Download PDF.
+Customer: ok",1
+CONV00369,CUST0150,2026-07-15 16:15:00,phone_transcript,AGT007,13.9,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00370,CUST0151,2026-07-15 02:14:00,email,AGT008,21.2,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00371,CUST0151,2026-07-27 08:25:00,chat,AGT011,28.1,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00372,CUST0152,2026-07-27 19:03:00,chat,AGT005,33.5,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00373,CUST0152,2026-07-08 00:56:00,phone_transcript,AGT011,3.3,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00374,CUST0152,2026-08-03 11:11:00,chat,AGT001,25.7,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00375,CUST0152,2026-07-04 06:30:00,chat,AGT006,18.9,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00376,CUST0152,2026-08-09 05:14:00,chat,AGT008,23.5,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00377,CUST0152,2026-07-31 12:28:00,phone_transcript,AGT004,38.5,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00378,CUST0153,2026-08-10 04:17:00,phone_transcript,AGT003,21.2,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00379,CUST0153,2026-07-04 05:18:00,phone_transcript,AGT012,22.8,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00380,CUST0154,2026-06-21 16:12:00,chat,AGT002,13.4,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00381,CUST0154,2026-07-23 02:47:00,email,AGT007,22.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00382,CUST0155,2026-07-07 22:58:00,chat,AGT012,43.6,"Customer: How do I download an invoice?
+Agent: Billing > Invoices > Download PDF.
+Customer: ok",1
+CONV00383,CUST0156,2026-08-11 15:07:00,phone_transcript,AGT009,26.5,"Customer: How do I download an invoice?
+Agent: Billing > Invoices > Download PDF.
+Customer: ok",1
+CONV00384,CUST0159,2026-06-21 11:37:00,phone_transcript,AGT005,18.2,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00385,CUST0159,2026-08-05 07:35:00,email,AGT008,36.1,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00386,CUST0159,2026-07-27 23:28:00,email,AGT003,11.9,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00387,CUST0159,2026-05-14 15:47:00,chat,AGT003,17.6,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00388,CUST0159,2026-07-06 20:18:00,email,AGT006,33.0,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00389,CUST0159,2026-08-11 08:30:00,phone_transcript,AGT003,29.8,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00390,CUST0160,2026-08-09 16:58:00,phone_transcript,AGT010,8.9,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00391,CUST0162,2026-07-23 22:03:00,chat,AGT003,13.1,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00392,CUST0162,2026-07-25 11:22:00,phone_transcript,AGT012,30.5,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00393,CUST0162,2026-08-09 21:47:00,phone_transcript,AGT008,39.3,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00394,CUST0162,2026-07-16 10:22:00,phone_transcript,AGT003,28.8,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00395,CUST0162,2026-06-29 18:14:00,email,AGT010,27.4,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00396,CUST0162,2026-07-31 11:52:00,chat,AGT004,24.5,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00397,CUST0163,2026-07-28 02:34:00,phone_transcript,AGT002,9.6,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",0
+CONV00398,CUST0163,2026-08-06 04:58:00,phone_transcript,AGT002,6.0,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00399,CUST0164,2026-07-24 04:26:00,phone_transcript,AGT011,20.6,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00400,CUST0164,2026-08-03 22:16:00,chat,AGT008,36.0,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00401,CUST0164,2026-07-03 05:09:00,email,AGT003,12.9,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00402,CUST0164,2026-07-21 21:42:00,email,AGT004,2.2,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00403,CUST0164,2026-07-17 23:24:00,phone_transcript,AGT001,18.1,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00404,CUST0164,2026-07-03 13:34:00,chat,AGT003,20.3,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00405,CUST0166,2026-06-11 15:06:00,email,AGT010,17.7,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",1
+CONV00406,CUST0166,2026-07-23 02:35:00,email,AGT009,35.7,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00407,CUST0166,2026-08-07 12:25:00,email,AGT005,44.5,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00408,CUST0167,2026-07-03 01:35:00,chat,AGT011,7.1,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00409,CUST0168,2026-07-19 01:50:00,chat,AGT009,19.2,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00410,CUST0168,2026-07-31 06:21:00,phone_transcript,AGT012,4.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00411,CUST0170,2026-08-07 04:00:00,chat,AGT008,41.8,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00412,CUST0170,2026-07-25 21:44:00,email,AGT002,28.2,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00413,CUST0170,2026-07-20 11:21:00,phone_transcript,AGT005,32.6,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00414,CUST0171,2026-08-06 18:20:00,email,AGT001,10.7,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00415,CUST0171,2026-06-16 07:42:00,chat,AGT010,24.0,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00416,CUST0171,2026-07-16 04:50:00,chat,AGT006,12.3,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00417,CUST0171,2026-08-07 18:55:00,email,AGT006,30.8,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00418,CUST0171,2026-07-28 17:27:00,phone_transcript,AGT012,5.0,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00419,CUST0172,2026-05-18 14:14:00,phone_transcript,AGT006,16.9,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00420,CUST0173,2026-06-19 16:22:00,email,AGT007,26.7,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00421,CUST0173,2026-07-02 10:28:00,phone_transcript,AGT002,23.6,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00422,CUST0173,2026-07-25 20:09:00,email,AGT009,37.0,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00423,CUST0173,2026-05-18 01:32:00,phone_transcript,AGT008,35.1,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00424,CUST0173,2026-07-29 09:17:00,phone_transcript,AGT001,22.7,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00425,CUST0174,2026-08-08 11:20:00,phone_transcript,AGT012,11.9,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",1
+CONV00426,CUST0174,2026-07-10 12:27:00,chat,AGT012,37.8,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",1
+CONV00427,CUST0174,2026-08-02 21:35:00,phone_transcript,AGT006,5.3,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00428,CUST0175,2026-06-19 08:40:00,chat,AGT010,13.6,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00429,CUST0175,2026-07-29 02:01:00,email,AGT012,10.6,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",0
+CONV00430,CUST0175,2026-08-07 15:47:00,chat,AGT004,38.0,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00431,CUST0175,2026-08-11 20:53:00,phone_transcript,AGT011,23.2,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00432,CUST0175,2026-07-22 06:58:00,email,AGT010,15.6,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00433,CUST0175,2026-07-24 05:05:00,email,AGT003,44.3,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00434,CUST0177,2026-06-17 15:35:00,phone_transcript,AGT003,4.3,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00435,CUST0177,2026-08-09 08:26:00,phone_transcript,AGT006,18.9,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00436,CUST0177,2026-07-10 18:31:00,phone_transcript,AGT009,21.8,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00437,CUST0177,2026-08-06 23:17:00,email,AGT010,6.3,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00438,CUST0177,2026-06-24 15:49:00,email,AGT004,13.6,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00439,CUST0178,2026-06-10 13:37:00,email,AGT007,11.1,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",0
+CONV00440,CUST0178,2026-08-09 12:37:00,email,AGT008,9.7,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",1
+CONV00441,CUST0178,2026-07-07 05:17:00,chat,AGT012,13.6,"Customer: I don't understand how to set up the integration, the docs are confusing.
+Agent: I can walk you through it, do you have 10 minutes?
+Customer: Not right now. Is there a video?",1
+CONV00442,CUST0178,2026-05-14 10:06:00,chat,AGT003,36.4,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",0
+CONV00443,CUST0179,2026-06-29 08:09:00,chat,AGT007,23.5,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00444,CUST0179,2026-07-27 03:27:00,phone_transcript,AGT006,35.8,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00445,CUST0179,2026-07-31 06:06:00,chat,AGT007,6.3,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00446,CUST0180,2026-06-30 17:08:00,email,AGT011,6.1,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",0
+CONV00447,CUST0180,2026-06-20 15:37:00,phone_transcript,AGT009,42.1,"Customer: Why is the report layout changed AGAIN without warning??
+Agent: We shipped an update on Tuesday, I can share the release notes.
+Customer: You guys need better comms. Anyway send them over.",1
+CONV00448,CUST0180,2026-07-24 23:34:00,email,AGT011,43.4,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00449,CUST0180,2026-08-04 05:19:00,phone_transcript,AGT003,44.1,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",1
+CONV00450,CUST0181,2026-08-09 13:17:00,email,AGT012,21.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00451,CUST0183,2026-08-08 04:42:00,phone_transcript,AGT003,39.3,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00452,CUST0183,2026-08-01 13:34:00,phone_transcript,AGT010,19.4,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",0
+CONV00453,CUST0184,2026-08-06 21:50:00,chat,AGT006,15.6,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00454,CUST0184,2026-07-19 15:22:00,email,AGT005,40.2,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00455,CUST0185,2026-07-18 12:13:00,phone_transcript,AGT008,19.8,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00456,CUST0185,2026-08-01 23:52:00,chat,AGT011,12.8,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00457,CUST0186,2026-07-01 00:55:00,chat,AGT007,6.4,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",1
+CONV00458,CUST0186,2026-06-26 08:25:00,chat,AGT007,24.5,"Customer: This is really frustrating, the export keeps timing out again!
+Agent: I'm sorry about that, let me check the logs.
+Customer: Every single week something breaks. Please just fix it properly.
+Agent: Escalating to engineering now, I'll update you today.
+Customer: Fine. I do like the product, it just needs to be reliable.",0
+CONV00459,CUST0186,2026-08-04 20:44:00,chat,AGT002,30.2,"Customer: The mobile app is so slow it's unusable today.
+Agent: There was a degradation this morning, now resolved.
+Customer: Ok its working now. Still annoying.",0
+CONV00460,CUST0187,2026-08-08 14:46:00,phone_transcript,AGT005,21.1,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",1
+CONV00461,CUST0187,2026-07-14 07:07:00,chat,AGT001,30.5,"Customer: I've been charged twice this month. This is the second time!
+Agent: I apologise, I can see a duplicate charge on the 3rd.
+Customer: I want it refunded today, not in 7 working days.
+Agent: I'll request an expedited refund.
+Customer: If this happens again I'm escalating to my finance director.",0
+CONV00462,CUST0188,2026-08-02 13:05:00,email,AGT009,42.2,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00463,CUST0189,2026-08-10 19:16:00,chat,AGT010,27.7,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00464,CUST0189,2026-08-07 03:04:00,email,AGT009,29.5,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",0
+CONV00465,CUST0189,2026-06-24 12:30:00,chat,AGT002,21.0,"Customer: Why did my invoice go up 22% with no notice?
+Agent: There was a plan price revision effective this quarter.
+Customer: Nobody told us. I need to review whether this still makes sense for us.",1
+CONV00466,CUST0189,2026-08-05 15:51:00,chat,AGT001,24.5,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00467,CUST0189,2026-06-27 19:38:00,email,AGT009,2.4,"Customer: My card payment failed but I have funds. Now my account is limited.
+Agent: Let me re-run the payment for you.
+Customer: Third time I'm calling about this billing mess.",0
+CONV00468,CUST0190,2026-07-13 08:41:00,email,AGT005,27.7,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00469,CUST0190,2026-07-25 06:37:00,email,AGT009,20.8,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00470,CUST0190,2026-08-02 01:13:00,email,AGT004,13.3,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",1
+CONV00471,CUST0190,2026-08-06 16:27:00,email,AGT011,33.9,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00472,CUST0190,2026-08-11 10:48:00,chat,AGT003,14.5,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",0
+CONV00473,CUST0192,2026-07-16 04:32:00,phone_transcript,AGT010,23.2,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",1
+CONV00474,CUST0193,2026-06-14 19:57:00,chat,AGT003,43.8,"Customer: Can you confirm our renewal date?
+Agent: Your contract renews on the 14th of next month.
+Customer: Perfect, no changes needed from our side.",1
+CONV00475,CUST0195,2026-07-01 19:15:00,phone_transcript,AGT001,12.0,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00476,CUST0195,2026-08-10 08:47:00,email,AGT005,35.8,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00477,CUST0197,2026-07-16 12:31:00,chat,AGT006,5.4,"Customer: how do i import my existing data
+Agent: Settings > Import > choose CSV.
+Customer: tried that, got an error. ill try again later",0
+CONV00478,CUST0197,2026-06-21 19:57:00,email,AGT002,25.4,"Customer: We signed up last month but honestly we havent used it much yet.
+Agent: Would an onboarding session help?
+Customer: Maybe. My team hasnt had time to learn it.",1
+CONV00479,CUST0198,2026-07-22 15:08:00,chat,AGT002,43.9,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00480,CUST0198,2026-08-09 11:11:00,chat,AGT012,44.8,"Customer: Just wanted to say the new dashboard update is really good.
+Agent: Thank you, I'll pass that to the product team!
+Customer: Cheers.",1
+CONV00481,CUST0199,2026-07-27 00:11:00,phone_transcript,AGT011,44.2,"Customer: Hi, quick question - how do I add a second admin user?
+Agent: Happy to help! Go to Settings > Team > Invite.
+Customer: Found it, thanks. Works great as always.",1
+CONV00482,CUST0200,2026-07-30 02:41:00,chat,AGT011,33.3,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",0
+CONV00483,CUST0200,2026-08-08 06:27:00,email,AGT008,29.5,"Customer: We've decided to cancel our subscription at the end of the term.
+Agent: I'm sorry to hear that, may I ask what's driving the decision?
+Customer: Four tickets in two months, none properly resolved. We're moving to a competitor next quarter.
+Agent: Can I arrange a call with your account manager?
+Customer: You can, but I doubt it changes anything at this point.",1
+CONV00484,CUST0200,2026-07-29 22:05:00,chat,AGT004,29.2,"Customer: I need to speak to a manager. This is the third time raising the same issue.
+Agent: I understand your frustration, let me escalate.
+Customer: We're already trialling an alternative platform. Honestly we're just waiting for our contract to end.",1
+CONV00485,CUST0200,2026-07-02 18:10:00,phone_transcript,AGT002,19.0,"Customer: please send me the offboarding process and data export options
+Agent: Before that, can we discuss what went wrong?
+Customer: Its too late for that. We've signed with another vendor.",1
+CONV00486,CUST0200,2026-07-26 22:23:00,phone_transcript,AGT010,8.7,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
+CONV00487,CUST0200,2026-08-11 16:50:00,chat,AGT011,28.6,"Customer: Still no fix. I'm done chasing this.
+Agent: I'm escalating to our senior team now.
+Customer: Save it. I'm taking this to our legal team if the refund isnt processed.",0
