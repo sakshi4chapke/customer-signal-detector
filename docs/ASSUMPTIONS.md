@@ -296,3 +296,144 @@ accuracy, which would require historical churn outcomes. Because the
 patterns were self-designed, tuning weights against these results would be
 circular; weights were therefore left at their initial documented values
 rather than optimised.
+
+## 10. Orchestration (Phase 8)
+
+### Structure
+
+Five specialist agents coordinated in three stages:
+
+```
+Stage 1 (parallel)     Behaviour ─┐
+                       Billing   ─┼─→  Stage 2  ──→  Stage 3
+                       Sentiment ─┘    Risk          Recommendation
+```
+
+Stage 1 agents read different data and have no interdependency, so they run
+concurrently. Stage 2 requires every signal; Stage 3 requires the score.
+Both are therefore sequential by necessity, not by choice.
+
+Signal contribution across 200 customers:
+
+| Agent | Signals produced | Errors |
+|---|---|---|
+| behaviour | 559 | 0 |
+| sentiment | 279 | 0 |
+| billing | 136 | 0 |
+
+Behaviour produces the most signals, which is consistent with it carrying
+the largest share of confidence coverage.
+
+### Dependency injection
+
+Agents are passed into the orchestrator rather than constructed inside it.
+The same orchestrator therefore runs in two modes without any change to its
+logic, because both agents honour the same output contract:
+
+| Mode | Sentiment agent | Behaviour |
+|---|---|---|
+| Live (`--live`) | `SentimentAgent` | Calls Gemini, consumes quota |
+| Cached (default) | `PrecomputedSentimentAgent` | Replays stored JSON, no API calls |
+
+This is not incidental. It means the dashboard runs with no API key, the
+demo recording cannot be disrupted by a rate limit, and the full pipeline
+can be executed 200 times during development at zero cost. Given that free
+tier quota is capped at 20 requests per day per model, this was a practical
+necessity as well as a design preference.
+
+### Confidence as coverage
+
+An initial implementation set confidence to the minimum across agents, so a
+single failed agent produced confidence 0.0. That is wrong: losing one of
+three inputs makes an assessment partial, not worthless.
+
+Confidence is now coverage-weighted:
+
+```
+AGENT_COVERAGE = {behaviour: 0.45, billing: 0.20, sentiment: 0.35}
+confidence = SUM(coverage x agent_confidence) / available_coverage
+```
+
+Behaviour carries the largest share because it is the only source capable of
+detecting silent disengagement - the quiet drifter case, which is both the
+hardest to catch and the most valuable.
+
+### Failure isolation - verified
+
+Each agent was deliberately replaced with one that always fails, to confirm
+the orchestrator degrades rather than dies. Tested on CUST0190, the
+highest-risk customer:
+
+| Scenario | Score | Level | Confidence | Signals |
+|---|---|---|---|---|
+| All agents healthy | 98.6 | Critical | 1.00 | 17 |
+| Billing agent down | 97.3 | Critical | 0.80 | 14 |
+| Sentiment agent down (LLM outage) | 92.4 | Critical | 0.65 | 12 |
+| Behaviour agent down | 90.6 | Critical | 0.55 | 8 |
+| Both LLM agents down | 92.4 | Critical | 0.65 | 12 |
+
+Every scenario produced a usable assessment. No exception escaped the
+orchestrator, and confidence fell in proportion to what was missing.
+
+The score moves only slightly across scenarios because this customer is
+failing on every dimension, so any subset of agents detects the risk. A
+borderline customer would move considerably more - which is precisely the
+situation the confidence figure exists to flag.
+
+### Reasoning trace
+
+Every assessment records which agent produced each signal, its latency, and
+any error. For CUST0190:
+
+```
+behaviour        9 signals   ok
+billing          3 signals   ok
+sentiment        5 signals   ok
+risk             -           ok
+recommendation   -           ok
+```
+
+Signals grouped by source, as rendered in the dashboard drill-down:
+
+- **behaviour** - 11 support tickets in 90 days · 121-hour average
+  resolution · NPS of 2 · no login for 45 days
+- **conversation** - "We've decided to cancel our subscription at the end of
+  the term" · "We're moving to a competitor next quarter" · four tickets
+  none properly resolved · frustration 10/10
+- **billing** - 1 failed payment · contract renewal in 25 days · no
+  successful payment for 53 days
+
+Without the trace, a score of 98.6 arrives from nowhere. With it, an
+operations agent can see which system raised each concern and read the
+customer's own words.
+
+### Measured, not assumed: parallelism
+
+Parallel and serial execution were both timed over 200 customers in cached
+mode:
+
+| Mode | Total | Per customer |
+|---|---|---|
+| Parallel stage 1 | 0.05s | 0.3ms |
+| Serial stage 1 | 0.01s | 0.0ms |
+
+**Serial was faster.** When agents replay cached results, the work is a
+dictionary lookup and thread-pool overhead exceeds the work being
+parallelised. Parallelism is retained because it matters in live mode, where
+the sentiment agent's API call dominates wall-clock time at 1-2 seconds, but
+no speed claim is made for cached mode.
+
+This is recorded rather than quietly dropped: an unmeasured claim of "3x
+faster through parallelism" would have been wrong in the mode the demo
+actually runs in.
+
+### Scope of the claim
+
+This is **deterministic orchestration with LLM-powered specialist agents**,
+not an autonomous planning loop. The agents do not select their own sequence
+or decide which tools to invoke; the stages are fixed.
+
+That is deliberate. A retention team needs the same input to produce the
+same ranking every morning, and an auditor needs to reproduce it. Autonomy
+would trade away both properties for flexibility this problem does not
+require.
