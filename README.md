@@ -82,8 +82,6 @@ signal profiles:
 | `data/raw/answer_key.csv` | 200 | Ground-truth labels — evaluation only, never used in scoring |
 | `data/raw/data_dictionary.csv` | 31 | Column definitions |
 
-Full data design notes: [`docs/ASSUMPTIONS.md`](docs/ASSUMPTIONS.md)
-
 ---
 
 ## Tools & stack
