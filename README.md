@@ -33,13 +33,4 @@ pip install -r requirements.txt
 cp .env.example .env            # add your Gemini API key
 ```
 
-## Status log
 
-- [x] Phase 1 — project setup
-- [ ] Phase 2 — dataset generation
-- [ ] Phase 3 — cleaning & validation
-- [ ] Phase 4 — rule-based agents
-- [ ] Phase 5 — LLM sentiment agent
-- [ ] Phase 6 — scoring engine
-- [ ] Phase 7 — orchestrator
-- [ ] Phase 8 — dashboard
